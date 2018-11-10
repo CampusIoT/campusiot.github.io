@@ -3,6 +3,5 @@
 Coming soon  :satellite:
 
 <p align="center">
-<img src="station-kerlink-lautaret-small.jpg">
+<img src="images/station-kerlink-lautaret.jpg">
 </p>
-
