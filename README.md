@@ -2,7 +2,7 @@
 
 Coming soon  :satellite:
 
-Follow us on twitter [@CampusIoT](https://twitter.com/CampusIoT).
+Visit https://CampusIoT.github.io
 
 <p align="center">
 <img src="images/station-kerlink-lautaret.jpg">

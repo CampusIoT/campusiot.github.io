@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="keywords" content="iot, internet of things,  m2m, lora, lorawan, long range, network server, gateway, connected objects, smart city, smart building, smart lighting, smart grid, smart metering, smart agriculture, smart parking"/>
+
+    <title>CampusIoT :: Learn by Doing Internet of Things</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>CampusIoT</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#missions" onclick=$("#menu-close").click();>Missions</a>
+            </li>
+            <li>
+                <a href="#applications" onclick=$("#menu-close").click();>Applications</a>
+            </li>
+            <li>
+                <a href="#technologies" onclick=$("#menu-close").click();>Technologies</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <!-- <h1><span style="color:#5882FA">Things</span><span style="color:#F5A9D0">plify!</span></h1> -->
+            <img src="logo/logo-s.png"/>
+            <h1 style="color:#fff;">CampusIoT</h1>
+            <h3 style="color:#fff;">Plateforme Learn-by-Doing de l'Internet des Objets</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">En savoir plus</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h1>CampusIoT</h1>
+                <h4>Le cabinet d'analyse Gartner prévoit que plus de 20 milliards d'objets connectés seront déployés dans le monde en 2020.</h4>
+                <h4>Les technologies de l'Internet des Choses (<i>Internet of Things</i>) vont permettre de gérer efficacement ces objets et d'offrir des services à haute valeur ajoutée.</h4>
+                <h4>CampusIoT est une plateforme pour l'enseignement et la recherche dans les technologies et dans les usages de l'Internet des Objets.</h4>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="missions" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Nos missions IoT</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-graduation-cap  fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Formation</strong>
+                                </h4>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Recherche</strong>
+                                </h4>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-users fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Collaboration<br/>Université-Entreprise</strong>
+                                </h4>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+
+    <!-- Domaine d'application -->
+    <aside class="callout3">
+        <div class="text-vertical-center">
+            <h1>CampusIoT</h1>
+        </div>
+    </aside>
+
+
+    <section id="applications" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Les Domaines d'Application IoT</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-building-o fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Immeuble intelligent</strong>
+                                </h4>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="glyphicon glyphicon-road fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Ville intelligente</strong>
+                                </h4>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="glyphicon glyphicon-fire fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Sécurité</strong>
+                                </h4>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="glyphicon glyphicon-grain fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Agriculture de précision<br/>Environnement</strong>
+                                </h4>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="glyphicon glyphicon-qrcode fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Logistisque et Traçabilité</strong>
+                                </h4>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="glyphicon glyphicon-trash fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Gestion des déchets</strong>
+                                </h4>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-tachometer fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Télérelève temps réel</strong>
+                                </h4>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Qualité de l'air</strong>
+                                </h4>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+
+
+                        <!--
+                        Risques naturels et industriels
+                        Pollution
+                        Qualité de l'eau
+                        Qualité de l'air
+
+                        Smart Cities
+                        Smart Home and Building
+                        Smart Environment
+                        Smart Metering
+                        Smart Agriculture
+                        Smart Industrial
+                        Retail and Logistics
+
+                        Healthcare and Well being
+
+                        -->
+
+
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+    <!-- Callout -->
+
+    <aside class="callout1">
+        <div class="text-vertical-center">
+            <h1>CampusIoT</h1>
+        </div>
+    </aside>
+
+
+    <section id="technologies" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Les Technologies IoT</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-signal fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Protocoles radio</strong>
+                                </h4>
+                                <p>LoRa/LoRaWAN, Sigfox, WMBus, RFXCom, ZWave, Zigbee, enOcean, Decawave, BLE, RFID UHF, RFID NFC, Wifi, Iridium.</p>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-hdd-o fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Objets et Stations</strong>
+                                </h4>
+                                <p>Nucleo, Pycom, Kerlink, Multitech, IMST, Impinj, NordicID, IMST, Microchip, Adeunis RF, ATIM, Libelium, Espressif, Rising, 1M2M, Senslab, SagemCom, Rock Seven.</p>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Intergiciels</strong>
+                                </h4>
+                                <p>MQTT, Kafka, Flume, WebRTC, Zookeeper, etcd, RabbitMQ, PubNub, HAProxy, JavaEE, Spring, Ionic, Node.js, Meteor, MySQL, MongoDB, Cassandra, HBase, InfluxDB, OpenTSDB, Spark, Flink, Camel, OpenHAB, Felix, Equinox, Docker, Telegraf, ELK, Grafana, IFTTT, PubNub, Rock Seven, AWS IoT, IBM Watson IoT Platform, Azure IoT Suite, OVH IoT ...</p>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-area-chart fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Données</strong>
+                                </h4>
+                                <p>Localisations interieure et extérieure, Géobarrieres, Géotraque, Alertes, Normalisation, Masses de données (Analytique, Prévision, Correlation), Tableaux de bord, Affichages interactifs, Données Publiques (Open Data), Production participative et citoyenne (Crowd Sourcing), Vie privée (Privacy)...</p>
+                                <a href="#contact" class="btn btn-light">En savoir plus</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+    <!-- Map -->
+    <!--
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps;output=embed"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/"></a>
+        </small>
+        </iframe>
+    </section>
+    -->
+
+        <!-- Callout -->
+
+    <aside class="callout2">
+        <div class="text-vertical-center">
+            <h1>CampusIoT</h1>
+        </div>
+    </aside>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h3><strong>CampusIoT</strong>
+                    </h3>
+                        <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:CampusIoT@imag.fr">CampusIoT@imag.fr</a>
+                        </li>
+                        </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://github.com/CampusIoT"><i class="fa fa-github fa-fw fa-4x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/CampusIoT"><i class="fa fa-twitter fa-fw fa-4x"></i></a>
+                        </li>
+                  </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; CampusIoT 2018-2019</p>
+                </div>
+            </div>
+        </div>
+
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>
