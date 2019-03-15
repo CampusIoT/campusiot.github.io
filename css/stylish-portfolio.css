@@ -11,9 +11,18 @@ $campusiot-color-bg: #41539B;
 $campusiot-color-fg: #C8CCE7;
 */
 .bg-campusiot {
-    background: #41539B;
+    background-color: #337ab7;
+}
+.text-campusiot {
+    color: #337ab7;
 }
 
+/*
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136
+);
+*/
 
 /* Global Styles */
 
