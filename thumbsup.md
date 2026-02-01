@@ -1,5 +1,3 @@
-
-
 # thumbsup :: slideshow generation
 
 https://github.com/thumbsup/thumbsup
@@ -13,7 +11,7 @@ docker run -v `pwd`:/work thumbsupgallery/thumbsup thumbsup \
     --input /work/photos \
     --output /work/images \
     --title 'CampusIot Gallery' \
-    --footer '© CampusIoT, LIG, Université Grenoble Alpes - 2015-2024. <a href="credits.txt">Credits</a>'
+    --footer '© CampusIoT, LIG, Université Grenoble Alpes - 2015-2026. <a href="credits.txt">Credits</a>'
 cp photos/credits.txt images/
 ```
 
