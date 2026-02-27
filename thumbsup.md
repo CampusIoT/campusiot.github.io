@@ -6,6 +6,8 @@ https://thumbsup.github.io/docs/
 
 ```bash
 cd ~/github/campusiot/campusiot.github.io
+git pull
+echo TODO build docker image for linux/arm64/v8
 mkdir images
 docker run -v `pwd`:/work thumbsupgallery/thumbsup thumbsup \
     --input /work/photos \
@@ -19,3 +21,6 @@ cp photos/credits.txt images/
 
 * [ ] improve CSS of slideshow
 * [ ] add comments on pictures
+* [ ] build docker image for linux/arm64/v8
+* [ ] embedded exif --embed-exif
+* [ ] watermark
